@@ -7,24 +7,29 @@ List<Persoon> Personen = new List<Persoon>();
 
 Persoon eerste = new Persoon();
 eerste.Voornaam = "Jan";
+eerste.Achternaam = "Jansen";
 Personen.Add(eerste);
 
 //Taak 1: Maak nog een Persoon object aan met de variabelenaam tweede (tip: regel 8 lijkt er heel erg op)
 
-//Taak 2: Zet de naam van het Persoon object met de variabelenaam op "Henk"
+//Taak 2: Zet de Voornaam van het Persoon object met de variabelenaam op "Henk"
+//        Zet de achternaam op "Janssen"
 
 //Taak 3: Voeg dit object toe aan de Lijst met de naam Personen
 
+//Taak 4: Voeg de volgende personen toe (herhaal Taak 1 t/m 3, gebruik wel nieuwe variabelenaam:
+//Willem Tell
+//Ronald Trump
+//Truus Hendriksen
 
 
+
+//Taak 5: Maak nog een persoon-object  aan 
+// Vraag de voornaam een de gebruiker en plaats deze in de voornaam eigenschap
+// Vraag de achternaam aan de gebruiker en plaats deze in de achternaam eigenschap
 foreach(var eenpersoon in Personen)
 {
-    Console.WriteLine(eenpersoon.Voornaam);
+    Console.WriteLine(eenpersoon.Voornaam + " " + eenpersoon.Achternaam);
 }
 
-//Taak 4: Ga naar persoon.cs en voor daar de taken uit om Achternaam toe te voegen
-
-//Taak 8: Stel de achternaam van ieder Persoon object dat je aanmaakt in op "Jansen"
-
-//Taak 9: Pas binnen de foreach aan, zodat Voornaam en Achternaam achter elkaar worden afgedrukt.
 

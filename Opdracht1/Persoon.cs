@@ -12,24 +12,18 @@ namespace Opdracht1
         //default constructor
         public Persoon()
         {
-        
+
         }
-
-
-        private string _voornaam ="";
-        //Taak 5: voeg een prive variable toe voor de achternaam begin prive variable met _
 
         public string Voornaam
         {
-            get { return _voornaam; }
-            set { _voornaam = value; }
+            get; set;
         }
 
-        //Taak 6: voeg een publieke variable toe voor Achternaam
-        //        deze bewerkt in de get en set de nieuwe prive variabele voor achternaam
-        //        deze prive variabele heeft de naar Achternaam en werkt zoals Voornaam
-
-        //Taak 7: Ga terug naar Program.cs
+        public string Achternaam
+        {
+            get; set;
+        }
 
     }
 }
