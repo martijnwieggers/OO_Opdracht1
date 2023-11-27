@@ -17,7 +17,7 @@ Personen.Add(eerste);
 
 //Taak 3: Voeg dit object toe aan de Lijst met de naam Personen
 
-//Taak 4: Voeg de volgende personen toe (herhaal Taak 1 t/m 3, gebruik wel nieuwe variabelenaam:
+//Taak 4: Voeg de volgende personen toe (herhaal Taak 1 t/m 3), gebruik wel nieuwe variabelenaam:
 //Willem Tell
 //Ronald Trump
 //Truus Hendriksen
@@ -27,6 +27,18 @@ Personen.Add(eerste);
 //Taak 5: Maak nog een persoon-object  aan 
 // Vraag de voornaam een de gebruiker en plaats deze in de voornaam eigenschap
 // Vraag de achternaam aan de gebruiker en plaats deze in de achternaam eigenschap
+
+//Taak 6: Voeg ook deze persoon toe aan de lijst met de naam Personen)
+
+
+//Taak 7: Vul onderstaande for-loop aan om zo 5 personen toe te voegen
+for(int i =1; i <= 5; i++)
+{
+   //maak een nieuw persoon object aan
+   //vraag en vul de eigenschappen (voornaam en achternaam)
+   //voeg object toe aan de lijst Personen
+}
+
 foreach(var eenpersoon in Personen)
 {
     Console.WriteLine(eenpersoon.Voornaam + " " + eenpersoon.Achternaam);
